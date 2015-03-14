@@ -1,5 +1,10 @@
 {
-  "name" : "Daniel Stankevich",
+  "name" : "TLight",
   "email" : "standeo@gmail.com",
   "url" : "http://tlight.herokuapps.com/"
+  "description": "Traffic Light",
+  "version": "0.0.1",
+  "engines": {
+    "iojs": "1.0.x"
+  }
 }
