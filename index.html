@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Traffic Light</title>
+    <script type="text/javascript" charset="utf-8" src="./tlight.js"></script>
+    <style type="text/css" media="screen">
+      html, body {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        margin: 0px;
+      }
+      .tlight { 
+        width: 100%; 
+        display: initial
+      }
+      #green { background-color: green; }
+      #ember { background-color: orange; }
+      #red { background-color: red; }
+      .light:hover { opacity: 1; }
+      .light {
+        display: block;
+        height: 33.4%;
+        align-content: center;
+        text-align: center;
+        opacity: 0.3;
+      }
+    </style>
+  </head>
+  <body id="wrapper">
+    <div class="tlight">
+      <div id="red" class="light"></div>
+      <div id="ember" class="light"></div>
+      <div id="green" class="light"></div>
+    </div>
+  </body>
+</html>
