@@ -17,7 +17,7 @@
         display: initial
       }
       #green { background-color: green; }
-      #ember { background-color: orange; }
+      #ember { background-color: yellow; }
       #red { background-color: red; }
       .light {
         display: block;
@@ -25,6 +25,12 @@
         align-content: center;
         text-align: center;
         opacity: 0.2;
+        -webkit-filter: blur(20px);
+        -moz-filter: blur(20px);
+        -o-filter: blur(20px);
+        -ms-filter: blur(20px);
+        filter: blur(20px);
+        -webkit-transition: 1s;
       }
     </style>
   </head>
