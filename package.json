@@ -1,10 +1,14 @@
 {
-  "name" : "TLight",
-  "email" : "standeo@gmail.com",
-  "url" : "http://tlight.herokuapps.com/",
+  "name": "TLight",
+  "email": "standeo@gmail.com",
+  "url": "http://tlight.herokuapps.com/",
   "description": "Traffic Light",
   "version": "0.0.1",
+  "main": "app.js",
   "engines": {
     "iojs": "1.0.x"
+  },
+  "dependencies": {
+    "express": "~4.12.2"
   }
 }
