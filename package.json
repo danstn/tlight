@@ -1,7 +1,7 @@
 {
   "name" : "TLight",
   "email" : "standeo@gmail.com",
-  "url" : "http://tlight.herokuapps.com/"
+  "url" : "http://tlight.herokuapps.com/",
   "description": "Traffic Light",
   "version": "0.0.1",
   "engines": {
